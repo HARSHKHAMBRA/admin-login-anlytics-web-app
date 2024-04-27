@@ -36,7 +36,7 @@ function Login() {
                   <div className="text-center">
                     <h1 className="h4 text-gray-900 mb-4">Welcome!</h1>
                   </div>
-                  <form className="user" method="POST" action="../login/login_process.php">
+                  <form className="user" method="POST" action="">
                     <div className="form-group">
                       <input type="email" className="form-control form-control-user" name="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." />
                     </div>

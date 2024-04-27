@@ -16,11 +16,11 @@ function App() {
     setShowRegisterForm(!showRegisterForm);
     setShowLoginForm(false); // Reset login form visibility
   };
-
+  
   return (
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Your Brand</a>
+        <a className="navbar-brand" href="#">IVMS</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -42,6 +42,7 @@ function App() {
       {showLoginForm && <Login onLogin={() => setShowLoginForm(false)} />}
       {showRegisterForm && <Register />}
     </div>
+    
   );
 }
 
